@@ -12,6 +12,10 @@ angular.module("loginApp", ["ngRoute"]).config(function ($routeProvider) {
       templateUrl: "/assets//page/user/home.html",
       controller: "UserController",
     })
+    .when("/voucher/home", {
+      templateUrl: "/assets//page/voucher/home.html",
+      controller: "VoucherController",
+    })
     .when("/login", {
       templateUrl: "/assets//page/auth/login.html",
       controller: "LoginController",
